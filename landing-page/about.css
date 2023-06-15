@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.image-logo{
+    width: 7rem;
+    height: auto;
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+    background-color: #030d4e;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white ;
+}
+
+a:hover{
+    color:#F8A01C;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.card{
+    background-color: #F8A01C;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    margin: 2rem 12rem 6rem 12rem;
+    width: 50vw;
+    align-items: center;
+}
+
+h1{
+    font-size: 42px;
+}
+
+.about-img{
+    height: 24rem;
+}
+
+.about-text{
+    font-weight: 500;
+    padding: 0rem 1rem;
+}
+
+.colored-text{
+    color: #F8A01C;
+}
+
+/* guidelines */
+
+.card-container{
+    background-color: #030d4e;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    padding: 4rem 2rem;
+}
+
+.card-guide{
+    background-color: #F8A01C;
+    margin: 2rem;
+    padding: 2rem;
+    width: 30vw;
+}
+.card-info{
+    position: relative;
+    margin: 4rem 0rem;
+}
+.card-info::after{
+        position: absolute;
+        content: '';
+        width: 4px;
+        height: 100%;
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255) );
+}
+ul{
+    list-style-type: none;
+}
+
+.guide-list li:nth-child(even){
+    float: right;
+    clear: left;
+    transform: translate(-150px);
+}
+
+.guide-list li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translate(150px);
+}
+.white-text{
+    color: #EEEEEE;
+}
+
+.current_page{
+    color:#F8A01C;
+    font-weight: 500;
+}
+
+/* CONTACTS */
+footer {
+    background-color: #F8A01C;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem;
+}
+
+.contact-info-list {
+    color: white;
+    font-size: 18px;
+}
+
+.socmeds-list {
+    color: white;
+    font-size: 18px;
+}
+
+.end-container {
+    background-color: #030d4e;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    font-weight: 500;
+}

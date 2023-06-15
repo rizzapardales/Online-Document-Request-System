@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+    --blue: #030e4f;
+    --yellow:#F49F1C;
+    --black: #000000;
+    --white: #fff;
+    --gray: #DCDCDC;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Poppins;
+  
+}
+
+body{
+   background-color: #f3f5f9;
+}
+
+.logo {
+  height: 8rem;
+  width: 8rem;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.sidebar{
+  width: 450px;
+  height: 100%;
+  background: var(--blue);
+  padding: 30px 95px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  position: fixed;
+  text-align: center;
+}
+
+.wrapper .sidebar .info1{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.wrapper .sidebar .info1 h3{
+    padding-bottom: 60px;
+    line-height: 35px;
+    color: var(--yellow);
+    font-size: 22px;
+}
+
+
+
+.wrapper .sidebar a.active{
+    padding: 12px;
+  border: 1px solid var(--black);
+ background-color: var(--yellow);
+  margin-bottom: 25px;
+  width: 250px;
+  border-radius: 40px 40px;
+
+}
+.wrapper .sidebar a{
+  padding: 12px;
+  border: 1px solid var(--black);
+ background-color: var(--white);
+  margin-bottom: 25px;
+  width: 250px;
+  border-radius: 40px 40px;
+ 
+}    
+
+.wrapper .sidebar ul li a{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black);
+    display: block;
+}
+
+
+.wrapper .sidebar ul li a:hover{
+  background-color: var(--yellow);
+}
+
+.wrapper .main_content{
+  width: 110%;
+  padding-left: 250px;
+}
+
+#content1, #content2 {
+  display: none;
+}
+
+.wrapper .main_content .header1{
+  margin-left: 200px;
+  padding: 30px 50px;
+  background: var(--gray);
+  height: 200px;
+
+}
+.wrapper .main_content .header1 h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: var(--blue);
+  border-bottom: 1px solid #e0e4e8;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.ref-fetch {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+
+.ref_num {
+    border: 2px solid #C7C7C7;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+    color: #000;
+}
+
+
+.ref_num:hover {
+    background-color: #e7e7e7;
+}
+
+.summary{
+  margin-top: 80px;
+}
+
+

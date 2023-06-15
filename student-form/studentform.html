@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../img/pitlogo.png" type="image/x-icon">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="studentform11.css">
+</head>
+<body>
+    <div class="back-btn">
+        <a href="../landing-page/home.html"><i class="fa-solid fa-arrow-left"></i> Back</a>
+    </div>
+    <main>
+        <div class="studentform-container">
+            <div class="header-container">
+                Student Request Form
+            </div>
+            <div class="studentform">
+                <form action="studentformback.php" method="post">
+                    <div class="col">
+                        <div class="flex">
+                            <h1>Applicant's Information</h1>
+                            <label for="fullname">Fullname</label>
+                            <input type="text" class="content" id="fullname" name="fullname" required>
+   
+                            <label for="course">Course</label>
+                            <br>
+                            <select name="course" id="course-select">
+                                <option value="BS Information Technology">BS Information Technology</option>
+                                <option value="BS Computer Science">BS Computer Science</option>
+                                <option value="BS Computer Engineering">BS Computer Engineering</option>
+                            </select>
+                           
+                            <br>
+                            <label for="purpose">Purpose</label>
+                            <input type="text" class="content" id="purpose" name="purpose" required>
+                           
+                            <h1>Contact Details</h1>
+                            <label for="contact_num">Contact Number</label>
+                            <input type="number" class="content" id="contact_number" name="contact_number" required>
+   
+                            <label for="email">Email</label>
+                            <input type="email" class="content" id="email" name="email" required>
+                        </div>
+   
+                        <div class="flex">
+                            <div class="adjust">
+                                <label for="student_num">Student Number</label>
+                                <input type="text" class="content" id="student_num" name="student_num" required>
+   
+                                <label for="college">College</label>
+                                <input type="text" class="content" id="college" name="college" required>
+                             </div>
+   
+                             <div class="adjust-1">
+                                <label for="address">Address</label>
+                                <input type="text" class="content" id="address" name="address" required>
+                            </div>
+                        </div>
+                    </div>
+   
+                        <div class="button">
+                            <input type="submit" value="Next" class="nextbtn">
+                        </div>
+   
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

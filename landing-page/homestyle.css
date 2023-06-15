@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 500ms;
+    justify-content: space-between;
+    z-index: 11;
+}
+
+nav{
+    margin-right: 100px;
+}
+
+nav a{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    padding: 10px 1px;
+    transition: 200ms;
+}
+
+nav a:hover{
+    color: #F8A01C;
+}
+
+img{
+    width: 65px;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.img-land{
+    width: 800px;
+    height: 800px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+.land-container{
+    background-color: #030D4E;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-text{
+    color: #F8A01C;
+    margin-top: -760px;
+    margin-left: 150px;
+    font-size: 35px;
+    line-height: 5rem;
+}
+
+.short-paragraph{
+    color: #fff;
+    margin-left: 150px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
+.bgc{
+    background: #eee;
+    padding: 5px;
+}
+
+.bgc nav a{
+    color: #030D4E;
+}
+
+.bgc nav a:hover{
+    color: #F8A01C;
+}
+
+.btn{
+    padding: 25px 30px;
+    background-color: #F8A01C;
+    border: 1px solid #F8A01C;
+    color: #030D4E;
+    border: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #F8A01C;
+}
+
+.img-about{
+    width: 600px;
+    height: 600px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.about-container{
+    background-color: #F8A01C;
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.about h1{
+    text-align: center;
+    color: #030D4E;
+    margin-top: 100px;
+    font-size: 55px;
+}
+
+span{
+    color: #F8A01C;
+}
+
+.guide-container{
+    margin-top: 150px;
+}
+
+.guide-container h1{
+    font-size: 55px;
+    color: #030D4E;
+}
+
+.pcontent{
+    margin-top: -150px;
+    margin-left: 450px;
+    margin-top: -500px;
+    padding-bottom: 50px;
+}
+
+
+
+.pcontent p{
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.span-guide{
+    color: #030D4E;
+}
+
+.guide-content{
+    width: 70%;
+    height: auto;
+    position: relative;
+}
+
+.guide-content:after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255) );
+}
+
+.guide-content ul{
+    list-style: none;
+}
+
+/*para sa cards*/
+.guide-content ul li{
+    width: 50%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: #E5900F;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.guide-content ul li:nth-child(odd){
+    float: left;
+    clear: right;
+    transform: translate(-30px); /*yung layo ng line sa card or text*/
+    text-align: right;
+}
+
+.guide-content ul li:nth-child(odd) .label{
+    right: 20px;
+}
+
+.guide-content ul li:nth-child(even){
+    float: right;
+    clear: left;
+    transform: translate(30px);
+}
+
+.guide-content ul li:nth-child(4){
+    margin-bottom: 0;
+} 
+
+ul li p{
+    font-size: 15px;
+    color: #fff;
+    margin: 7px 0;
+    line-height: 23px;
+}
+
+.guide-semi{
+    width: 100%;
+    height: auto;
+    background-color: #030D4E;
+    padding: 50px 0;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.guide-content ul li h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.contact-container{
+    margin-top: 90px;
+}
+
+.contact-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #030D4E;
+    font-size: 55px;
+}
+
+.pcontact{
+    text-align: center;
+}
+
+.contact-semi{
+    background-color: #E5900F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 370px;
+    width: 100%;
+}
+
+.contact-content h2{
+    margin-left: 390px;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+
+/*para sa underline sa heading*/
+.heading::after{
+    position: absolute;
+    content: '';
+    width: 7%; /*maadjust yung haba ng line*/
+    height: 3px; /*yung kapal ng line*/
+    left: 5%;
+    bottom: -5px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+    transform: translate(-50%);
+}
+
+.contact-content .heading-1{
+    margin-left: 970px;
+    margin-top: -218px;
+
+}
+
+.heading-1::after{
+    position: absolute;
+    content: '';
+    width: 25%; /*maadjust yung haba ng line*/
+    height: 3px; /*yung kapal ng line*/
+    left: 15%;
+    bottom: -5px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0));
+    transform: translate(-50%);
+}
+
+.contact-layout{
+    margin-bottom: 20px;
+}
+.contact-icon{
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.contact-text{
+    margin-left: 390px;
+    margin-top: -155px;
+}
+
+.tel{
+    margin-bottom: 30px;
+}
+
+.email{
+    margin-bottom: 30px;
+}
+
+.contact-icon1{
+    margin-top: 30px;
+    margin-left: 970px;
+}
+
+.contact-text1{
+    margin-left: 1020px;
+    margin-top: -100px;
+}
+
+.fb{
+    margin-bottom: 25px;
+}
+
+
+.fa-solid{
+    font-size: 30px;
+}
+
+.fa-brands{
+    font-size: 30px;
+}
+
+.footer__copyright {
+    background: #030D4E;
+    padding: 20px 0;
+}
+
+.footer__copyright h6 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+em{
+    color: #F8A01C;
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    order: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 5%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    height: 120px;
+    background-color: #030D4E;
+}
+
+.header ul a {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.header ul a span {
+    color: #F8A01C;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.logo-container{
+    width: 100px;
+    height: 80px;
+    margin-right: 5px;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+}
+
+.mascot-container{
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+    position: relative;
+}
+.mascot-container img{
+    height: 120px;
+    width: 120px;
+    overflow: hidden;;
+    position: absolute;
+}
+
+.container {
+    margin: auto;
+    margin-bottom: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 855px;
+    height: 450px;
+    left: 255px;
+    top: 296px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 40px -11px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+    flex-direction: column;
+}
+
+.container p {
+    width: 819px;
+    height: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.container button {
+    margin: 15px;
+    background: #F8A01C;
+    padding: 1rem 4rem;
+    width: 200px;
+    /* width: 255px;
+    height: 85px; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 58px;  
+    text-align: center;
+    border-radius: 14px;
+    color: #000000;
+    border:#F8A01C;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: #030D4E;
+    border-radius: 10px;
+    color: #F8A01C;
+}
+
+.container button:hover a {
+    color: #F8A01C;
+}

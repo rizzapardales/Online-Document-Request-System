@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Poppins;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+.big_logo{
+    background-color: #030e4f;
+    height: 100vh;
+    /* width: 825px; */
+    width: 50vw;
+}
+
+
+img{
+    height: 30rem;
+    width: 30rem;
+    margin: 2rem 10rem;
+    animation: floatImage 4s ease-in-out infinite;
+    animation-delay: 3s;
+}
+
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+
+
+    50%{
+        transform: translateY(-24px);
+    }
+
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+
+
+.login-container{
+    height: 60vh;
+    width: 28vw;
+    background-color: #fff;
+    box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 8rem 10rem;
+}
+
+.login-container1{
+    height: 55vh;
+    width: 28vw;
+    background-color: #fff;
+    box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 8rem 10rem;
+}
+
+
+.login h1{
+    color: #030e4f;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+
+.login span{
+    color: #F49F1C;
+}
+.login p{
+    padding-bottom: 10px;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+form {
+    margin: 0rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+input {
+    padding: 0.6rem 0.8rem;
+    border-radius: 12px;
+    outline: none;
+    border: 1.8px solid black;
+}
+
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.btn{
+    font-weight: bolder;
+    background-color: #F49F1C;
+    padding: 7px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.btn1{
+    font-weight: bolder;
+    background-color: #F49F1C;
+    padding: 7px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+.btn-container {
+    text-align: center;
+    align-items: center;
+}
+
+
+.login-container .login a:hover{
+    transform: scale(1.5px);
+}
+
+
+.info {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+
+.info span{
+    color: #F49F1C;
+}
+
+
+.info1{
+    padding-top: 65px;
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 30px;
+}
+
+
+.info1 h3{
+    line-height: 46px;
+    color: #e6e6e6;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.info1 span{
+    color: #F49F1C;
+}
+
+
+
+
+/* CLIENT LOG IN */
+.register-container {
+    text-align: center;
+    color: #c1c1c1;
+    margin-top: 1rem;
+}
+
+
+.register-container a {
+    color: #F49F1C;
+    text-decoration: none;
+}
+
+
+/* POPUP STYLE */
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 2rem;
+    visibility: hidden;
+    transition: transform 0.3s, top 0.4s;
+    box-shadow: 0px 19px 46px 13px rgba(0,0,0,0.1);
+}
+
+
+.open-popup {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.popup h2 {
+    color: #E5900F;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.popup img {
+    margin-bottom: 1rem;
+    position: absolute;
+    top: -30%;
+    left: 30%;
+}
+
+
+.popup p {
+    margin-bottom: 1rem;
+}
+
+
+#ref_num {
+    font-size: 22px;
+    color: #030D4E;
+    font-weight: bold;
+}
+
+
+.popup button {
+    padding: 0.6rem;
+    width: 5rem;
+    border-radius: 12px;
+    background-color: #E5900F;
+    border: none;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#togglePassword{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: -38px;
+}
+
+#togglePassword1{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -38px;
+}
+
+#togglePassword2{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: -38px;
+}
+
+
+
+#student_num{
+    display: inline-block;
+}
+
+
+
+
+

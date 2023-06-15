@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.col{
+    display: flex;
+}
+
+.flex{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.flex input{
+    margin-bottom: 15px;
+    padding: 0.7rem;
+}
+
+.flex label{
+    font-weight: bold;
+}
+
+.flex h1{
+    margin-top: 25px;
+    color: #E5900F;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.content{
+    width: 300px;
+    border-radius: 12px;
+    border: solid 1.5px black;
+    padding: 0.5rem 
+}
+
+.back-btn {
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+    font-size: 30px;
+}
+
+.back-btn a {
+    color: black;
+    text-decoration: none;
+    transition: .3s ease all;
+
+}
+
+.back-btn a:hover {
+    color: #F8A01C;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    transition: .3s ease all;
+}
+
+.head{
+    background-color: #030D4E;
+    margin-top: 30px;
+    margin-left: 180px;
+    margin-right: 195px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.head h1{
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-container {
+    background-color: #030D4E;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.studentform-container{
+    height: 45rem;
+    width: 890px;
+    background-color: #fff;
+    box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 3rem 0rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.adjust {
+    margin-top: 83px;
+}
+
+.adjust-1{
+    margin-top: 163px;
+}
+
+.nextbtn {
+    background-color: #F8A01C;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1rem;
+    position: absolute;
+    border-radius: 12px;
+    margin-left: 740px;
+    margin-top: -50px;
+    transition: 0.3s;
+}
+
+
+.nextbtn{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #c1c1c1;
+}
+
+button{
+    background-color: #F8A01C;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1rem;
+    position: absolute;
+    border-radius: 12px;
+    margin-left: 740px;
+    margin-top: -50px;
+    transition: 0.3s;
+}
+
+
+
+#course-select {
+    margin-bottom: 15px;
+    padding: 0.7rem;
+    border-radius: 12px;
+    width: 20.2rem;
+    border: solid 1.5px black;
+}
+
+
