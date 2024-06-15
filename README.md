@@ -26,5 +26,5 @@
 
 <h2 style="color: #FF6347;">🖼️ Website Preview</h2>
 <p>Here is a preview of the Online Document Request System:</p>
+<img src="img/2023-11-25 13 09 11.png" alt="Website Preview" style="border: 2px solid #FF6347;">
 
-(img/2023-11-25 13 09 11.png)
