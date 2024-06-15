@@ -23,3 +23,6 @@
   <li><strong>🐘 PHP</strong>: For server-side scripting and handling backend operations.</li>
   <li><strong>🗃️ HeidiSQL</strong>: For managing the database.</li>
 </ul>
+
+<h2 style="color: #FF6347;">🖼️ Website Preview</h2>
+<p>Here is a preview of the Online Document Request System:</p>
