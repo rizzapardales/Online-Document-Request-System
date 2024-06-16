@@ -36,7 +36,7 @@ The primary purpose of this system is to provide an efficient and secure platfor
 ### 🔒 Security and Privacy
 > **Objective:** Ensure the security and privacy of user data and document requests.
 >
-> **Description:** Implement robust security measures to protect user information and ensure that document handling is confidential.
+> **Description:** Implement security measures to protect user information and ensure that document handling is confidential.
 
 ### 📂 Document Management
 > **Objective:** Allow administrators to manage document requests efficiently.
